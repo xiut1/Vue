@@ -1,0 +1,183 @@
+{
+    "success": true,
+    "code": 0,
+    "msg": "성공하였습니다.",
+    "data": {
+      "list": [
+        {
+          "postId": 9,
+          "postType": "sinbi",
+          "user": {
+            "userId": 1,
+            "nickname": "gigasu",
+            "userTypeCd": "USER"
+          },
+          "title": "9번째 포스트",
+          "createDate": "2020-01-17 20:30:21",
+          "version": 1,
+          "postCnt": [
+            {
+              "typeCd": "comment",
+              "cnt": 0
+            },
+            {
+              "typeCd": "favorite",
+              "cnt": 0
+            },
+            {
+              "typeCd": "like",
+              "cnt": 0
+            },
+            {
+              "typeCd": "view",
+              "cnt": 19
+            }
+          ],
+          "thumbs": [],
+          "tags": ""
+        },
+        {
+          "postId": 8,
+          "postType": "sinbi",
+          "user": {
+            "userId": 1,
+            "nickname": "gigasu",
+            "userTypeCd": "USER"
+          },
+          "title": "8번째 포스트",
+          "createDate": "2020-01-17 20:30:18",
+          "version": 1,
+          "postCnt": [
+            {
+              "typeCd": "comment",
+              "cnt": 0
+            },
+            {
+              "typeCd": "favorite",
+              "cnt": 0
+            },
+            {
+              "typeCd": "like",
+              "cnt": 0
+            },
+            {
+              "typeCd": "view",
+              "cnt": 18
+            }
+          ],
+          "thumbs": [],
+          "tags": ""
+        },
+        {
+          "postId": 7,
+          "postType": "sinbi",
+          "user": {
+            "userId": 1,
+            "nickname": "gigasu",
+            "userTypeCd": "USER"
+          },
+          "title": "7번째 포스트",
+          "createDate": "2020-01-17 20:30:14",
+          "version": 1,
+          "postCnt": [
+            {
+              "typeCd": "comment",
+              "cnt": 0
+            },
+            {
+              "typeCd": "favorite",
+              "cnt": 0
+            },
+            {
+              "typeCd": "like",
+              "cnt": 0
+            },
+            {
+              "typeCd": "view",
+              "cnt": 11
+            }
+          ],
+          "thumbs": [],
+          "tags": ""
+        },
+        {
+          "postId": 6,
+          "postType": "sinbi",
+          "user": {
+            "userId": 1,
+            "nickname": "gigasu",
+            "userTypeCd": "USER"
+          },
+          "title": "6번째 포스트",
+          "createDate": "2020-01-17 20:30:12",
+          "version": 1,
+          "postCnt": [
+            {
+              "typeCd": "comment",
+              "cnt": 0
+            },
+            {
+              "typeCd": "favorite",
+              "cnt": 0
+            },
+            {
+              "typeCd": "like",
+              "cnt": 0
+            },
+            {
+              "typeCd": "view",
+              "cnt": 11
+            }
+          ],
+          "thumbs": [],
+          "tags": ""
+        },
+        {
+          "postId": 5,
+          "postType": "sinbi",
+          "user": {
+            "userId": 1,
+            "nickname": "gigasu",
+            "userTypeCd": "USER"
+          },
+          "title": "5번째 포스트",
+          "createDate": "2020-01-17 20:30:11",
+          "version": 1,
+          "postCnt": [
+            {
+              "typeCd": "comment",
+              "cnt": 0
+            },
+            {
+              "typeCd": "favorite",
+              "cnt": 0
+            },
+            {
+              "typeCd": "like",
+              "cnt": 0
+            },
+            {
+              "typeCd": "view",
+              "cnt": 11
+            }
+          ],
+          "thumbs": [],
+          "tags": ""
+        }
+      ],
+      "pageInfo": {
+        "totalCount": 10,
+        "pageNo": 1,
+        "pageSize": 5,
+        "firstPageNo": 1,
+        "prevPageNo": 1,
+        "startPageNo": 1,
+        "endPageNo": 2,
+        "nextPageNo": 2,
+        "finalPageNo": 2,
+        "pagination": "limit-offset",
+        "hasNextPage": true,
+        "hasPrevPage": false
+      }
+    }
+  }
