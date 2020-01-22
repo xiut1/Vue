@@ -1,11 +1,50 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Routing Example App</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script src="dist/build.js"></script>
-  </body>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <!-- CSS -->
+        <link rel="stylesheet" href="resources/css/reset.css">
+        <!-- CSS.libs -->
+        <link rel="stylesheet" href="resources/css/libs/uikit.min.css">
+        <!-- /CSS.libs -->
+        <link rel="stylesheet" href="resources/css/style.css">
+        <!-- /CSS -->
+    </head>
+    <body style="font-family: HGGGothicssi;">
+        <div class="container">
+            <section class="section section-1">
+                <ul uk-accordion>
+                    <li class="uk-open">
+                        <a class="uk-accordion-title" href="#">Item 1</a>
+                        <div class="uk-accordion-content">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="uk-accordion-title" href="#">Item 2</a>
+                        <div class="uk-accordion-content">
+                            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor reprehenderit.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="uk-accordion-title" href="#">Item 3</a>
+                        <div class="uk-accordion-content">
+                            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat proident.</p>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+        </div>
+        <!-- SCRIPT -->
+        <!-- JS.libs -->
+        <script src="resources/js/libs/jquery-3.4.1.min.js"></script>
+        <script src="resources/js/libs/uikit.min.js"></script>
+        <script src="resources/js/libs/uikit-icons.min.js"></script>
+        <script src="resources/js/libs/vue.js"></script>
+        <!-- /JS.libs -->
+       <script src="resources/js/common.js"></script>
+        <!-- /SCRIPT -->
+    </body>
 </html>

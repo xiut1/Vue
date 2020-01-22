@@ -1,0 +1,35 @@
+@charset 'utf-8';
+
+/* Font */
+@font-face {
+	font-family:'NotoSansKr';
+	src: url('fonts/NotoSansCJKkr-Light.woff');
+}
+
+@font-face {
+	font-family:'HGGGothicssi';
+	src: url('fonts/HGGGothicssi40gA.woff');
+}
+
+/* Basic */
+.container {position: relative;}
+.container img {width: 100%;display: block;}
+.container .section {position: relative;/* width: 720px; *//* margin: 0 auto; */}
+.container .section .content {position: relative;width: 100%;}
+
+/* Custom */
+.bmg {position: relative;width: 100%;height: auto;}
+.btn {position: absolute;text-indent: -99999px;cursor: pointer !important;background: #ff0000;opacity: 0.0;filter: alpha(opacity=0.0);}
+.clearfix:after {content: '';clear: both;display: block;}
+
+/* Index.html */
+.container .section-1 {position: relative;width: 100%;}
+
+/* test */
+.acd {position: relative;width: 100%;}
+.acd .acd-title {position: relative;padding: 20px;border-bottom: 2px solid #eeeeee;}
+.acd .acd-title .acd-arr {position: absolute;top: 50%;right: 20px;width: 30px;height: 30px;transform: translateY(-50%) rotate(90deg);}
+.acd .acd-content {padding: 20px;}
+.acd .acd-content.active {display: block;}
+
+.list-practice li.active {color: #ff0000;}
